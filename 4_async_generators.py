@@ -1,6 +1,6 @@
 import socket
 
-from select import select
+from select_task import select
 
 tasks = []
 # словарь, на мониторинг за чтением

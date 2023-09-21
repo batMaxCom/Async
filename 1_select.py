@@ -1,5 +1,5 @@
 import socket
-from select import select
+from select_task import select
 
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
